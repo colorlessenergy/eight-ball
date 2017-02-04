@@ -14,10 +14,11 @@ button.addEventListener("click", function () {
       showAnswer.innerHTML = "the magical 8-Ball"
         break;
       default:
-      showQuestion.innerHTML = question.value;
-      showAnswer.innerHTML = responses[Math.floor(Math.random() * responses.length-1)];
+      showQuestion.innerHTML = "Question: " + question.value;
+      showAnswer.innerHTML = "Answer: " + responses[Math.floor(Math.random() * responses.length-1)];
     }
   } else {
-    alert("insert something into the text box");
+    showQuestion.innerHTML = "insert something into the textbox"
+    showAnswer.innerHTML = "insert something into the textbox"
   }
 });
