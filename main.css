@@ -4,16 +4,25 @@ html, body {
 }
 
 .askQuestion {
-  background-color: black;
+  background-color: #0F0F0F;
   color: #006730;
   font-size: 20px;
   height: 170px;
   text-align: center;
 }
 
+.displayData {
+  align-items: center;
+  background-color: #181A18;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Exo', sans-serif;
+}
+
 .info {
   align-items: center;
-  background-color: white;
+  background-color: #E6E6E6;
   display: flex;
   font-family: 'VT323', monospace;
   height: 400px;
@@ -24,12 +33,16 @@ html, body {
   font-size: 30px;
 }
 
+.margin {
+  margin-top: 0px;
+}
+
 .title {
   background-color: #2A292C;
   color: #E6E6E6;
-  font-family: 'Exo', sans-serif;
   text-align: center;
 }
+
 .title h1 {
   margin: 0;
 }
