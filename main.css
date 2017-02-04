@@ -3,9 +3,31 @@ html, body {
   padding: 0;
 }
 
-.title {
+.askQuestion {
   background-color: black;
-  color: white;
+  color: #006730;
+  font-size: 20px;
+  height: 170px;
+  text-align: center;
+}
+
+.info {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  font-family: 'VT323', monospace;
+  height: 400px;
+  justify-content: center;
+}
+
+.info p {
+  font-size: 30px;
+}
+
+.title {
+  background-color: #2A292C;
+  color: #E6E6E6;
+  font-family: 'Exo', sans-serif;
   text-align: center;
 }
 
